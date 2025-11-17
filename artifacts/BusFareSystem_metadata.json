@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "busCompany",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "farePerStop",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BusFareSystem.sol": "BusFareSystem"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BusFareSystem.sol": {
+			"keccak256": "0xc9dbe4ea5a70fa31353b3bb2bd595702246bd9d57dd1e921dbd2774f07122196",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b87b36ad4b6bb2c546aac5a63846ee7ffe8021722b64f9755cd6b5240f071d0",
+				"dweb:/ipfs/QmWk6jX1niTD4xFus1BDigKbC2EjoDKJgFasg33AfGw7UG"
+			]
+		}
+	},
+	"version": 1
+}
