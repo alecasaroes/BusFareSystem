@@ -81,6 +81,5 @@ contract BusPayment {
     // View function to get current stop count
     function getCurrentStops() public view returns (uint256) {
         return totalStops;
->>>>>>> Stashed changes
     }
 }
